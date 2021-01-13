@@ -19,7 +19,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["http://*.bailuntec.com/*"],
+			"matches": ["https://*.baidu.com/*"],
 			"css": ["css/content.css"],
 			"js": ["js/chunk-vendors.js","js/content.js"],
 			"run_at": "document_idle"
