@@ -2,7 +2,7 @@
  * @description: 
  * @author: 小羽
  * @Date: 2021-01-12 18:38:05
- * @LastEditTime: 2021-01-12 18:59:40
+ * @LastEditTime: 2021-01-14 14:41:22
  * @Copyright: 1.0.0
  */
 const CopyWebpackPlugin = require("copy-webpack-plugin");
@@ -34,7 +34,7 @@ const plugins = [
 // 页面文件
 const pages = {};
 // 配置 popup.html 页面
-const chromeName = ["popup"];
+const chromeName = ["popup","index"];
 
 chromeName.forEach(name => {
   	pages[name] = {
@@ -46,6 +46,8 @@ chromeName.forEach(name => {
 
 module.exports = {
 	pages,
+	lintOnSave: false,
+	filenameHashing: false,
 	productionSourceMap: false,
 	// 配置 content.js background.js
 	configureWebpack: {
@@ -68,6 +70,10 @@ module.exports = {
 		if (process.env.NODE_ENV === 'production') {
 			config.output.filename('js/[name].js').end()
 			config.output.chunkFilename('js/[name].js').end()
+			/* config.plugin('extract-css').tap(args => [{
+				filename: `css/[name].css`,
+				chunkFilename: `css/[name].css`
+			}]) */
 		}
 	}
 }
