@@ -2,7 +2,7 @@
  * @description: 
  * @author: 小羽
  * @Date: 2021-01-12 18:40:31
- * @LastEditTime: 2021-01-14 13:47:27
+ * @LastEditTime: 2021-01-14 15:54:25
  * @Copyright: 1.0.0
 -->
 <template>
@@ -10,10 +10,10 @@
 		sulg-plugin-cli content
 		<div class="content_page_main">
 			<div v-for="(item,index) in dataList" :key="index">
-				<el-link :href="item.video" type="primary" target="_blank">{{item.text}}</el-link>
+				<a :href="item.video" type="primary" target="_blank">{{item.text}}</a>
 			</div>
 			<div>
-				<el-button type="primary" size="mini" @click="searchBtn">api-test</el-button>
+				<a-button type="primary" size="mini" @click="searchBtn">api-test</a-button>
 			</div>
 			<div ref="myChart" style="width:300px;height:200px"></div>
 		</div>

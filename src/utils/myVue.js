@@ -2,23 +2,19 @@
  * @description: 
  * @author: 小羽
  * @Date: 2021-01-13 16:19:51
- * @LastEditTime: 2021-01-14 13:25:16
+ * @LastEditTime: 2021-01-14 15:45:38
  * @Copyright: 1.0.0
  */
 import { createApp } from 'vue'
 import api from "@/api/index.js"
-import elementNeed from "./elementNeed"
+import antdNeed from "./antdNeed"
 const echarts = require("echarts")
-//import elementPlus from "element-plus"
-//import "element-plus/lib/theme-chalk/index.css";
 
 
 function myVue(app){
   const myApp = createApp(app)
-  
-  //myApp.use(elementPlus)
-  // 按需引入element plus组件
-  for(let item of elementNeed){
+  // 按需引入antd2.0组件
+  for(let item of antdNeed){
     myApp.use(item)
   }
 

@@ -2,7 +2,7 @@
  * @description: 
  * @author: 小羽
  * @Date: 2021-01-12 18:42:06
- * @LastEditTime: 2021-01-13 15:28:43
+ * @LastEditTime: 2021-01-14 15:51:01
  * @Copyright: 1.0.0
 -->
 <template>
@@ -11,7 +11,7 @@
 		<div class="popup_page_main">
 			this is sulg-plugin-cli popup
 			<div>
-				<el-button type="primary" size="mini">popup button</el-button>
+				<a-button type="primary" size="mini">popup button</a-button>
 			</div>
 		</div>
 	</div>

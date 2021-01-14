@@ -1,8 +1,8 @@
 {
-  "name": "elementplus",
-  "description": "elementplus",
-  "author": "小羽",
-  "version": "1.0.0",
+  "name":"{{name}}",
+  "description":"{{ description }}",
+  "author": "{{ author }}",
+  "version": "{{version}}",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --watch",
@@ -11,10 +11,10 @@
     "watch": "vue-cli-service build --watch"
   },
   "dependencies": {
+    "ant-design-vue": "^2.0.0-rc.8",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "echarts": "^5.0.0",
-    "element-plus": "^1.0.1-beta.24",
     "sass": "^1.32.4",
     "sass-loader": "^10.1.1",
     "vue": "^3.0.0"
@@ -26,6 +26,7 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.3",
     "copy-webpack-plugin": "6.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
