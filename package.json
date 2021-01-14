@@ -1,8 +1,8 @@
 {
-  "name": "elementplus",
-  "description": "elementplus",
-  "author": "小羽",
-  "version": "1.0.0",
+  "name":"{{name}}",
+  "description":"{{ description }}",
+  "author": "{{ author }}",
+  "version": "{{version}}",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --watch",
