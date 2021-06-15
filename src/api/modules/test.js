@@ -1,11 +1,3 @@
-/*
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-13 15:41:45
- * @LastEditTime: 2021-01-13 17:46:24
- * @Copyright: 1.0.0
- */
-
 import axios from "@/utils/http.js"
 
 class Test{

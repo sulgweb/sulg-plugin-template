@@ -1,10 +1,3 @@
-<!--
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:42:06
- * @LastEditTime: 2021-01-14 14:59:42
- * @Copyright: 1.0.0
--->
 <template>
 	<div class="index_page">
 		my-plugin插件

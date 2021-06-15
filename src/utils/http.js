@@ -1,10 +1,3 @@
-/*
- * @description: 封装axios拦截器
- * @author: 小羽
- * @Date: 2021-01-13 15:36:45
- * @LastEditTime: 2021-01-13 15:54:29
- * @Copyright: 1.0.0
- */
 import axios from "axios"
 import { setSync, getSync } from "./chrome"
 
