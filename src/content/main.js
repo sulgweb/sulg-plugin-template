@@ -1,10 +1,3 @@
-/*
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:40:53
- * @LastEditTime: 2021-01-14 15:14:21
- * @Copyright: 1.0.0
- */
 import myVue from "@/utils/myVue.js"
 import app from './components/app.vue'
 

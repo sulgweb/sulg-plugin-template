@@ -1,10 +1,3 @@
-<!--
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:42:06
- * @LastEditTime: 2021-01-14 15:51:01
- * @Copyright: 1.0.0
--->
 <template>
 	<div class="popup_page">
 		sulg-plugin-cli popup

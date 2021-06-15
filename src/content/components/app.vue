@@ -1,10 +1,3 @@
-<!--
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:40:31
- * @LastEditTime: 2021-01-14 15:54:25
- * @Copyright: 1.0.0
--->
 <template>
 	<div class="content_page">
 		sulg-plugin-cli content
@@ -41,36 +34,18 @@
 			this._initData()
 		},
 		methods:{
-			/**
-			* @description: 数据初始化
-			* @Date: 2021-01-14 13:31:30
-			* @author: 小羽
-			* @param {*}
-			* @return {*}
-			*/
+			// 数据初始化
 			_initData(){
 				
 				this.drawEchart()
 			},
 
-			/**
-			 * @description: 搜索按钮
-			 * @Date: 2021-01-14 13:44:47
-			 * @author: 小羽
-			 * @param {*}
-			 * @return {*}
-			 */	
+			// 搜索按钮
 			searchBtn(){
 				this.searchFunc()
 			},
 
-			/**
-			 * @description: 搜索方法
-			 * @Date: 2021-01-14 13:43:13
-			 * @author: 小羽
-			 * @param {*}
-			 * @return {*}
-			 */
+			// 搜索方法
 			searchFunc(){
 				this.$api.testApi.test().then(res=>{
 					this.dataList = res.result
@@ -78,13 +53,7 @@
 				})
 			},
 
-			/**
-			* @description: 绘制echart图表
-			* @Date: 2021-01-14 13:32:07
-			* @author: 小羽
-			* @param {*}
-			* @return {*}
-			*/
+			// 绘制echart图表
 			drawEchart(){
 				let options = {
 					title: {

@@ -1,12 +1,4 @@
-/*
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-13 10:35:48
- * @LastEditTime: 2021-01-13 10:36:03
- * @Copyright: 1.0.0
- */
 // 加载文件
-
 const filesInDirectory = dir =>
   new Promise(resolve =>
     dir.createReader().readEntries(entries => {
