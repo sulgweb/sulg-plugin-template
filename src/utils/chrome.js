@@ -1,3 +1,4 @@
+// 存储stroage数据
 function setSync(params) {
   return new Promise((resolve, reject) => {
     chrome.storage.local.set(params, res => {
@@ -6,6 +7,7 @@ function setSync(params) {
   })
 }
 
+// 获取storege数据
 function getSync(params) {
   return new Promise((resolve, reject) => {
     chrome.storage.local.get(params, res => {
@@ -23,6 +25,7 @@ function getCurrentTabId() {
   })
 }
 
+// 发送短连接消息
 async function sortConnectMsgSend(data){
   return await new Promise((resovle,reject)=>{
     chrome.runtime.sendMessage(data,res =>  resovle(res));
