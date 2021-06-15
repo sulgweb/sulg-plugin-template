@@ -1,10 +1,3 @@
-<!--
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:40:31
- * @LastEditTime: 2021-01-13 10:48:01
- * @Copyright: 1.0.0
--->
 <template>
 	<div class="content_page">
 		sulg-plugin-cli content

@@ -1,10 +1,3 @@
-/*
- * @description: 
- * @author: 小羽
- * @Date: 2021-01-12 18:40:53
- * @LastEditTime: 2021-01-13 10:14:40
- * @Copyright: 1.0.0
- */
 import { createApp } from 'vue'
 import app from './components/app.vue'
 
